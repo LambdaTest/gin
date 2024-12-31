@@ -20,9 +20,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/LambdaTest/gin/binding"
+	"github.com/LambdaTest/gin/render"
 	"github.com/gin-contrib/sse"
-	"github.com/gin-gonic/gin/binding"
-	"github.com/gin-gonic/gin/render"
 )
 
 // Content-Type MIME of the most common data formats.
